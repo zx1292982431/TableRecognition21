@@ -1,0 +1,302 @@
+wb：workbook（对象）
+ws：worksheet workbook中的sheet
+
+sheet_annotations：{
+        "n_regions": 4,
+        "regions": [
+            {
+                "region_label": "Table_A5_S44",
+                "region_type": "Table",
+                "top_lx": [
+                    0,
+                    4
+                ],
+                "bot_rx": [
+                    18,
+                    43
+                ],
+                "n_elements": 4,
+                "elements": [
+                    {
+                        "element_label": "Data_A12_S43",
+                        "type": "Data",
+                        "top_lx": [
+                            0,
+                            12
+                        ],
+                        "bot_rx": [
+                            18,
+                            42
+                        ]
+                    },
+                    {
+                        "element_label": "Header_A8_S11",
+                        "type": "Header",
+                        "top_lx": [
+                            0,
+                            7
+                        ],
+                        "bot_rx": [
+                            18,
+                            10
+                        ]
+                    },
+                    {
+                        "element_label": "Derived_A44_S44",
+                        "type": "Derived",
+                        "top_lx": [
+                            0,
+                            43
+                        ],
+                        "bot_rx": [
+                            18,
+                            43
+                        ]
+                    },
+                    {
+                        "element_label": "Other_A5_S7",
+                        "type": "Other",
+                        "top_lx": [
+                            0,
+                            4
+                        ],
+                        "bot_rx": [
+                            17,
+                            6
+                        ]
+                    }
+                ]
+            },
+            {
+                "region_label": "Notes_A3_C3",
+                "region_type": "Notes",
+                "top_lx": [
+                    0,
+                    2
+                ],
+                "bot_rx": [
+                    0,
+                    2
+                ],
+                "n_elements": 1,
+                "elements": [
+                    {
+                        "element_label": "Notes_A3_C3",
+                        "type": "Notes",
+                        "top_lx": [
+                            0,
+                            2
+                        ],
+                        "bot_rx": [
+                            0,
+                            2
+                        ]
+                    }
+                ]
+            },
+            {
+                "region_label": "Other_I3_K3",
+                "region_type": "Other",
+                "top_lx": [
+                    8,
+                    2
+                ],
+                "bot_rx": [
+                    9,
+                    2
+                ],
+                "n_elements": 1,
+                "elements": [
+                    {
+                        "element_label": "Other_I3_K3",
+                        "type": "Other",
+                        "top_lx": [
+                            8,
+                            2
+                        ],
+                        "bot_rx": [
+                            9,
+                            2
+                        ]
+                    }
+                ]
+            },
+            {
+                "region_label": "MetaTitle_A1_C2",
+                "region_type": "MetaTitle",
+                "top_lx": [
+                    0,
+                    0
+                ],
+                "bot_rx": [
+                    0,
+                    1
+                ],
+                "n_elements": 1,
+                "elements": [
+                    {
+                        "element_label": "MetaTitle_A1_C2",
+                        "type": "MetaTitle",
+                        "top_lx": [
+                            0,
+                            0
+                        ],
+                        "bot_rx": [
+                            0,
+                            1
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+table_annotations:[{
+                "region_label": "Table_A5_S44",
+                "region_type": "Table",
+                "top_lx": [
+                    0,
+                    4
+                ],
+                "bot_rx": [
+                    18,
+                    43
+                ],
+                "n_elements": 4,
+                "elements": [
+                    {
+                        "element_label": "Data_A12_S43",
+                        "type": "Data",
+                        "top_lx": [
+                            0,
+                            12
+                        ],
+                        "bot_rx": [
+                            18,
+                            42
+                        ]
+                    },
+                    {
+                        "element_label": "Header_A8_S11",
+                        "type": "Header",
+                        "top_lx": [
+                            0,
+                            7
+                        ],
+                        "bot_rx": [
+                            18,
+                            10
+                        ]
+                    },
+                    {
+                        "element_label": "Derived_A44_S44",
+                        "type": "Derived",
+                        "top_lx": [
+                            0,
+                            43
+                        ],
+                        "bot_rx": [
+                            18,
+                            43
+                        ]
+                    },
+                    {
+                        "element_label": "Other_A5_S7",
+                        "type": "Other",
+                        "top_lx": [
+                            0,
+                            4
+                        ],
+                        "bot_rx": [
+                            17,
+                            6
+                        ]
+                    }
+                ]
+            },
+            ... 列表，只列举一个item
+            ]
+
+table_definations:[
+    BoundingBox(left,riht,top,bottom), ... , 列表
+]
+
+label_regions: [
+                    {
+                        "element_label": "Data_A12_S43",
+                        "type": "Data",
+                        "top_lx": [
+                            0,
+                            12
+                        ],
+                        "bot_rx": [
+                            18,
+                            42
+                        ]
+                    },
+                    {
+                        "element_label": "Header_A8_S11",
+                        "type": "Header",
+                        "top_lx": [
+                            0,
+                            7
+                        ],
+                        "bot_rx": [
+                            18,
+                            10
+                        ]
+                    },
+                    {
+                        "element_label": "Derived_A44_S44",
+                        "type": "Derived",
+                        "top_lx": [
+                            0,
+                            43
+                        ],
+                        "bot_rx": [
+                            18,
+                            43
+                        ]
+                    },
+                    {
+                        "element_label": "Other_A5_S7",
+                        "type": "Other",
+                        "top_lx": [
+                            0,
+                            4
+                        ],
+                        "bot_rx": [
+                            17,
+                            6
+                        ]
+                    }
+                ]
+
+flattend_lrs/label_regions_dict:{
+    "Other_A5_S7":{
+                        "element_label": "Other_A5_S7",
+                        "type": "Other",
+                        "top_lx": [
+                            0,
+                            4
+                        ],
+                        "bot_rx": [
+                            17,
+                            6
+                        ]
+                    },
+    "Derived_A44_S44":{
+                        "element_label": "Derived_A44_S44",
+                        "type": "Derived",
+                        "top_lx": [
+                            0,
+                            43
+                        ],
+                        "bot_rx": [
+                            18,
+                            43
+                        ]
+                    },
+            ... ...
+            字典
+}

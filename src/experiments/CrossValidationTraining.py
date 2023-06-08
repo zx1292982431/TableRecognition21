@@ -241,9 +241,14 @@ class CrossValidationTraining(object):
         )
         result = search.run()
 
-        print('------------------result---------------------')
-        for item in result.get_table_definitions():
-            print(item)
+        print('------------------详尽搜索result---------------------')
+        #print(f'nodes:{result.nodes}')
+        for item in  result.nodes:
+            print(f'type:{item.type}', end='\t')
+            print(f'left:{item.left}', end='\t')
+            print(f"top:{item.top}", end='\t')
+            print(f'right:{item.right}', end='\t')
+            print(f'bottom:{item.bottom}')
         print('---------------------------------------------')
 
         return Analyser.accuracy_based_on_jacard_index(ground_truth, result.get_table_definitions())

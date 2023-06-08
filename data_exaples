@@ -300,3 +300,48 @@ flattend_lrs/label_regions_dict:{
             ... ...
             字典
 }
+
+
+cell ： {
+                        "type": "Table",
+                        "x": 1,
+                        "y": 2,
+                    }
+
+cell_rows:{
+    1:[{
+                        "type": "Table",
+                        "x": 1,
+                        "y": 1,
+                    },
+        {
+                        "type": "Table",
+                        "x": 2,
+                        "y": 1,
+                    }
+
+      ]
+      .......
+        字典
+}
+
+
+cell_rows(in Dataprocesser):
+[
+[cell,cell,cell, ... ],
+[cell,cell,cell, ... ],
+ ... ...
+]
+
+label_regions= [{id:xxx data:xxx},{},{},...,]
+
+SheetData(ws, label_regions, table_definitions)
+
+edge_list = [Edge(sourece(LabelRegion),destnation(LableRegion),type),Edge(),Edge(), ... ]
+
+edge_list 和 toggle_edge_list 的区别 edge_list对应论文中Figer1.d edge_list对应论文中Figer1.e
+toggle_edge_list 是 bool 类型的列表 False 代表边无效
+
+node_edges_lookup ： {
+
+} 字典，key是某一个LableRegion，也就是一个node， value是一个Edge对象的集合，也就是与该node相连的所有边
